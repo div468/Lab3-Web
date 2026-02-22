@@ -5,30 +5,66 @@
 </head>
 <body>
 <header>
-<a href="../index.html">Restart</a>
+    <nav>
+        <a href="../index.html">First scenario</a> >
+        <span>Drowner encounter</span>
+    </nav>
+    <h1>Oh no... Drowners</h1>
 </header>
 
-<h1>Oh no... Drowners</h1>
+<main>
+    <article>
 
-<img src = "../images/drowners.webp"  alt = "Right path image" width ="500" height="300" >
-<hr>
+        <section>
+            <p>
+                You keep walking in a long and stinky path through the sewers. There are some grates every now and then. You try to scream for help but its useless, no one will get in the sewers to save a simple man. 
+                You start to think that it wasn't the best idea to come to Novigrad and sell shoes... You really want to get out of there. 
+            </p>
+        </section>
 
-<p>
-    You keep walking in a long and stinky path through the sewers. There are some grates every now and then. You try to scream for help
-    but its useless, no one will get in the sewers to save a simple man. You start to think that it wasn't the best idea to come
-    to Novigrad and sell shoes... You really want to get out of there. When you are almost lost on your thoughts, you hear a shriek near by.
-    You're scared, but the only path you can see is where the shriek came from, so you walk as all of your body trembles.
-    You get to a room where its easily recognizable that illegal fights take place. But there is no time to think about the morality of 
-    that business, a drowner noticed you and is rapidly coming after you. Do you have a sword?
-</p>
-    <hr>
+        <details>
+            <summary>Drowners</summary>
+            <aside>
+                <i>
+                    Drowners are terrifying creatures that usually live near water. They are aggressive and hunt in dark and damp places like swamps, rivers... and sewers.
+                </i>
+            </aside>
+        </details>
 
-<img src = "../images/combat.jpg" alt = "Fighting a drowner" width ="500" height="300" >
+        <figure>
+            <img src="../images/drowners.webp" alt="Right path image" width="500" height="300">
+            <figcaption>A dangerous encounter in the sewers</figcaption>
+        </figure>
 
+        <section>
+            <p>
+                When you are almost lost in your thoughts, you hear a shriek nearby. You're scared, but the only path you can see is where the shriek came from, so you walk as all of your body trembles.You get to a room where it's easily recognizable that illegal fights take place. 
+                But there is no time to think about morality a drowner noticed you and is rapidly coming after you. 
+                Do you have a sword?
+            </p>
+        </section>
+
+        <figure>
+            <img src="../images/combat.jpg" alt="Fighting a drowner" width="500" height="300">
+            <figcaption>New encounter to the drowners</figcaption>
+        </figure>
+
+    </article>
+</main>
+
+<nav>
     <ul>
-        <li><a href="./second_decision/no_sword/last_chance.html">A. No</a> </li>
-        <li><a href="./second_decision/sword/continue.html">A. Yes</a> </li> 
+        <li><a href="./second_decision/no_sword/last_chance.html">No</a></li>
+        <li><a href="./second_decision/sword/continue.html">Yes</a></li>
+        <br>
+        <li><a href="../index.html">Restart</a></li>
     </ul>
+</nav>
 
+<footer>
+    <p>&emsp; <time>22:25</time> - The danger increases!</p>
+    <label for="progress">You are this close to escaping Novigrad's sewers:</label>
+    <progress id="progress" value="35" max="100">35%</progress>
+</footer>
 </body>
 </html>

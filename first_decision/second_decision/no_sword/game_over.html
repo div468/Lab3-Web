@@ -1,26 +1,66 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title> Oh oh...</title>
-    </head>
-    <body>
-    
-        <h1>Game over</h1>
-        <hr>
-        <p>
-            You run as fast as you can back where you came from, hoping to lose the Drowner before you reach the end of the path. All you can think about is running, it feels like if
-            your legs were running by themselves. You hear shrieks behind you...
-            <br>
-            You get to the end of the sewers and try to breath after the marathon you just ran and try to get quiet so the drowner doesn't hear you, but you just remembered something,
-            Drowners smell their victims to chase them... By the time you realize, you listen shrieks closer and closer...
+<head>
+    <title>Oh oh...</title>
+</head>
+<body>
 
-            <strong>GAME OVER</strong>
-        </p>
-        <hr>
-        <img src = "../../../images/game_over.png" alt = "You died screen" width = "800" height = "300">
-        <br>
-        <ul>
-            <li><a href="../../../index.html">Restart</a></li>    
-        </ul>
-    </body>
+<header>
+    <nav>
+        <a href="../../../index.html">First scenario</a> >
+        <a href="../../drowner_encounter.html" >Drowner encounter without a sword</a> > 
+        <span>Bad ending</span>
+    </nav>
+    <h1>Game over</h1>
+</header>
+
+<main>
+    <article>
+
+        <section>
+            <p>
+                You run as fast as you can back to where you came from, hoping to lose the drowner before you reach the end of the path. All you can think about 
+                is running it feels as if your legs are moving on their own. You hear shrieks behind you...
+            </p>
+        </section>
+
+        <details>
+            <summary>A fatal mistake</summary>
+            <aside>
+                <i>
+                    Panic clouds judgment. Sometimes running blindly only delays the inevitable rather than preventing it.
+                </i>
+            </aside>
+        </details>
+
+        <section>
+            <p>
+                You reach the end of the sewer and try to catch your breath after the  desperate sprint. You attempt to stay quiet so the drowner doesn't hear you, 
+                but then you remember something drowners track their victims by scent. The shrieks grow closer and closer...
+            </p>
+
+            <p><strong>GAME OVER</strong></p>
+        </section>
+
+        <figure>
+            <img src="../../../images/game_over.png" alt="You died screen" width="800" height="300">
+            <figcaption>The sewers show no mercy.</figcaption>
+        </figure>
+
+    </article>
+</main>
+
+<nav>
+    <ul>
+        <li><a href="../../../index.html">Restart</a></li>
+    </ul>
+</nav>
+
+<footer>
+    <p>&emsp; <time>22:45</time> - The escape failed.</p>
+    <label for="progress">You are this close to escaping Novigrad's sewers:</label>
+    <progress id="progress" value="60" max="100">60%</progress>
+</footer>
+
+</body>
 </html>

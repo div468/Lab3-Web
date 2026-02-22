@@ -1,25 +1,67 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title> Oh oh...</title>
-    </head>
-    <body>
-        <header>
-        <a href="../../../index.html">Restart</a>
-        </header>
+<head>
+    <title>Oh oh...</title>
+</head>
+<body>
 
-        <h1>Time to run</h1>
-        <hr>
-        <p>
-            You don't have a way to defeat the drowner. Now, you gotta think fast so you don't get eaten in a sewer. You can see some light in the path behind the drowner, but it's dangerous
-            trying to get past that beast. You also think of running back to where you came from, hoping the drowner doesn't follow you and wait until it leaves so that you can continue with
-            your escape. By the time you finished analyzing your options, the drowner has gotten very close to you. What do you do?
-        </p>
-        <hr>
-        <img src = "../../../images/no_sword_encounter.webp" alt = "Drowner encounter without a sword" width = "500" height = "300">
-        <ul>
+<header>
+    <nav>
+        <a href="../../../index.html">First scenario</a> >
+        <a href="../../drowner_encounter.html" >Drowner encounter without a sword</a> > 
+        <span>What now?</span>
+    </nav>
+    <h1>Time to run</h1>
+</header>
+
+<main>
+    <article>
+
+        <section>
+            <p>
+                You don't have a way to defeat the drowner. Now, you gotta think fast so you don't get eaten in a sewer. You can see some light in the path
+                behind the creature, but it's dangerous trying to get past that beast.
+            </p>
+        </section>
+
+        <details>
+            <summary>No weapon, no plan</summary>
+            <aside>
+                <i>
+                    Facing a monster unarmed forces you to rely purely on instinct. Every decision must be made in seconds hesitation could be fatal.
+                </i>
+            </aside>
+        </details>
+
+        <section>
+            <p>
+                You also consider running back to where you came from, hoping the drowner doesn't follow you and that you can continue your escape later. 
+                By the time you finish analyzing your options, the drowner has gotten very close to you. What do you do?
+            </p>
+        </section>
+
+        <figure>
+            <img src="../../../images/no_sword_encounter.webp" alt="Drowner encounter without a sword" width="500" height="300">
+            <figcaption>An impossible situation.</figcaption>
+        </figure>
+
+    </article>
+</main>
+
+<nav>
+    <ul>
+        <li><a href="./bandit_encounter/bandit.html">Try to dodge and run forward</a></li>
+        <li><a href="./game_over.html">Run back with hope</a></li>
         <br>
-            <li><a href = ".//bandit_encounter/bandit.html">A. Try to dodge the drowner and run to the next path.</a></li>
-            <li><a href = "./game_over.html">B. Run back with hope.</a></li>
-    </body>
+        <li><a href="../../../index.html">Restart</a></li>
+    </ul>
+</nav>
+
+<footer>
+    <p>&emsp; <time>22:35</time> - Panic sets in.</p>
+    <label for="progress">You are this close to escaping Novigrad's sewers:</label>
+    <progress id="progress" value="45" max="100">45%</progress>
+</footer>
+
+</body>
 </html>
